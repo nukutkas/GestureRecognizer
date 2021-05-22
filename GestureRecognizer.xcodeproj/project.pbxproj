@@ -13,6 +13,8 @@
 		E55375F524F79F02003DDD5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55375F324F79F02003DDD5D /* Main.storyboard */; };
 		E55375F724F79F03003DDD5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55375F624F79F03003DDD5D /* Assets.xcassets */; };
 		E55375FA24F79F03003DDD5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55375F824F79F03003DDD5D /* LaunchScreen.storyboard */; };
+		E5857FC1265984C500C1EBF6 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = E5857FBF265984C500C1EBF6 /* Screenshot01.png */; };
+		E5857FC2265984C500C1EBF6 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5857FC0265984C500C1EBF6 /* Screenshot02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E55375F624F79F03003DDD5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E55375F924F79F03003DDD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E55375FB24F79F03003DDD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5857FBF265984C500C1EBF6 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		E5857FC0265984C500C1EBF6 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 				E5857FBB265982CE00C1EBF6 /* Storyboards */,
 				E5857FBC265982DF00C1EBF6 /* Source */,
 				E5857FB82659825500C1EBF6 /* Supporting files */,
+				E5857FBE2659849E00C1EBF6 /* Screenshots */,
 			);
 			path = GestureRecognizer;
 			sourceTree = "<group>";
@@ -97,6 +102,15 @@
 				E55375F624F79F03003DDD5D /* Assets.xcassets */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		E5857FBE2659849E00C1EBF6 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				E5857FBF265984C500C1EBF6 /* Screenshot01.png */,
+				E5857FC0265984C500C1EBF6 /* Screenshot02.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +173,8 @@
 			files = (
 				E55375FA24F79F03003DDD5D /* LaunchScreen.storyboard in Resources */,
 				E55375F724F79F03003DDD5D /* Assets.xcassets in Resources */,
+				E5857FC1265984C500C1EBF6 /* Screenshot01.png in Resources */,
+				E5857FC2265984C500C1EBF6 /* Screenshot02.png in Resources */,
 				E55375F524F79F02003DDD5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,7 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZZW6YBBKN;
-				INFOPLIST_FILE = GestureRecognizer/Info.plist;
+				INFOPLIST_FILE = "GestureRecognizer/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,7 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZZW6YBBKN;
-				INFOPLIST_FILE = GestureRecognizer/Info.plist;
+				INFOPLIST_FILE = "GestureRecognizer/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
