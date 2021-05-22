@@ -15,6 +15,7 @@
 		E55375FA24F79F03003DDD5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55375F824F79F03003DDD5D /* LaunchScreen.storyboard */; };
 		E5857FC1265984C500C1EBF6 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = E5857FBF265984C500C1EBF6 /* Screenshot01.png */; };
 		E5857FC2265984C500C1EBF6 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5857FC0265984C500C1EBF6 /* Screenshot02.png */; };
+		E5857FC5265988E000C1EBF6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E5857FC4265988E000C1EBF6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E55375FB24F79F03003DDD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5857FBF265984C500C1EBF6 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 		E5857FC0265984C500C1EBF6 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		E5857FC4265988E000C1EBF6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				E5857FBC265982DF00C1EBF6 /* Source */,
 				E5857FB82659825500C1EBF6 /* Supporting files */,
 				E5857FBE2659849E00C1EBF6 /* Screenshots */,
+				E5857FC4265988E000C1EBF6 /* README.md */,
 			);
 			path = GestureRecognizer;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5857FC5265988E000C1EBF6 /* README.md in Resources */,
 				E55375FA24F79F03003DDD5D /* LaunchScreen.storyboard in Resources */,
 				E55375F724F79F03003DDD5D /* Assets.xcassets in Resources */,
 				E5857FC1265984C500C1EBF6 /* Screenshot01.png in Resources */,
