@@ -56,15 +56,47 @@
 		E55375EC24F79F02003DDD5D /* GestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
-				E55375ED24F79F02003DDD5D /* AppDelegate.swift */,
-				E55375EF24F79F02003DDD5D /* SceneDelegate.swift */,
-				E55375F124F79F02003DDD5D /* ViewController.swift */,
-				E55375F324F79F02003DDD5D /* Main.storyboard */,
-				E55375F624F79F03003DDD5D /* Assets.xcassets */,
-				E55375F824F79F03003DDD5D /* LaunchScreen.storyboard */,
-				E55375FB24F79F03003DDD5D /* Info.plist */,
+				E5857FBA2659828500C1EBF6 /* View Controllers */,
+				E5857FBB265982CE00C1EBF6 /* Storyboards */,
+				E5857FBC265982DF00C1EBF6 /* Source */,
+				E5857FB82659825500C1EBF6 /* Supporting files */,
 			);
 			path = GestureRecognizer;
+			sourceTree = "<group>";
+		};
+		E5857FB82659825500C1EBF6 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				E55375ED24F79F02003DDD5D /* AppDelegate.swift */,
+				E55375EF24F79F02003DDD5D /* SceneDelegate.swift */,
+				E55375FB24F79F03003DDD5D /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		E5857FBA2659828500C1EBF6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E55375F124F79F02003DDD5D /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E5857FBB265982CE00C1EBF6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E55375F324F79F02003DDD5D /* Main.storyboard */,
+				E55375F824F79F03003DDD5D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E5857FBC265982DF00C1EBF6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E55375F624F79F03003DDD5D /* Assets.xcassets */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,7 +126,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Nikita Kochetov";
 				TargetAttributes = {
 					E55375E924F79F02003DDD5D = {
@@ -192,6 +224,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +285,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
