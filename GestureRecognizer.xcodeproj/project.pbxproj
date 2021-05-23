@@ -47,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				E55375EC24F79F02003DDD5D /* GestureRecognizer */,
+				E5857FC4265988E000C1EBF6 /* README.md */,
 				E55375EB24F79F02003DDD5D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,7 +68,6 @@
 				E5857FBC265982DF00C1EBF6 /* Source */,
 				E5857FB82659825500C1EBF6 /* Supporting files */,
 				E5857FBE2659849E00C1EBF6 /* Screenshots */,
-				E5857FC4265988E000C1EBF6 /* README.md */,
 			);
 			path = GestureRecognizer;
 			sourceTree = "<group>";
