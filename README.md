@@ -1,6 +1,6 @@
 # GestureRecognizer
 
-Simple app for testing GestureRecognizer
+Simple app for practice  GestureRecognizer
 
 # Installation
 
